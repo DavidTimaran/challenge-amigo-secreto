@@ -31,7 +31,6 @@ function actualizaLista(){
     let li = document.createElement("li");  //creo el elemento li
     li.innerHTML=" ";
     for (let i = 0; i < numeroDatos; i++){
-        //console.log(`numero de datos: ${i}`);
         li.innerHTML = listaAmigos[i];
         document.querySelector("#listaAmigos").appendChild(li);
     }
